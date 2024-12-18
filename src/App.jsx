@@ -6,7 +6,7 @@ function App() {
   return (
   <Router>
     <Routes>
-      <Route path="/" element={<TodoPage />} />
+      <Route path="/rkpo" element={<TodoPage />} />
       <Route path="/dnd" element={<DndPage />} />
     </Routes>
   </Router>
